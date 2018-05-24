@@ -3,7 +3,8 @@ var App = React.createClass({
         return (
             React.createElement('div', {className: 'app'},
                 React.createElement(Counter),
-                React.createElement(Counter1)
+                React.createElement(Counter),
+                React.createElement(Counter)
             )
         );
     }
